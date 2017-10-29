@@ -48,7 +48,7 @@ func main() {
 	// Output:
 	/*
 
-	   HELLO
+	   Hello Man
 	           <link href="a.css" rel="stylesheet">
 
 	           <link href="b.css" rel="stylesheet">
