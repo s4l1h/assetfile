@@ -21,29 +21,30 @@ type AssetFile struct {
 }
 
 // Add  File
-func (manager *AssetFile) Add(file string) {
+func (manager *AssetFile) Add(file string, param ...interface{}) {
 	manager.Lock()
 	defer manager.Unlock()
+	if param != nil {
+		file = fmt.Sprintf(file, param...)
+	}
 	if _, ok := manager.Files[file]; !ok {
 		manager.Counter++
 		manager.Files[file] = manager.Counter
 	}
 }
 
-// AddWithParam  File
-func (manager *AssetFile) AddWithParam(file string, param interface{}) {
-	manager.Add(fmt.Sprintf(file, param))
-}
-
 // AddIndex  File
-func (manager *AssetFile) AddIndex(file string, index int) {
+func (manager *AssetFile) AddIndex(file string, index int, param ...interface{}) {
 	manager.Lock()
 	defer manager.Unlock()
+	if param != nil {
+		file = fmt.Sprintf(file, param...)
+	}
 	manager.Files[file] = index
 
 }
 
-// List file
+// List return asset files
 func (manager *AssetFile) List() []string {
 	return SortedKeys(manager.Files)
 }

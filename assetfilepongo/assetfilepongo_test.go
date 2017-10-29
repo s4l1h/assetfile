@@ -1,4 +1,4 @@
-package assetfile
+package assetfilepongo
 
 import "testing"
 
