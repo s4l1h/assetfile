@@ -1,7 +1,7 @@
-s4l1hpackage assetfilepongo
+package assetfilepongo
 
 import (
-	"github.com/akmyazilim/assetfile"
+	"github.com/s4l1h/assetfile"
 	"github.com/flosch/pongo2"
 )
 

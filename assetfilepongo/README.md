@@ -1,13 +1,13 @@
-s4l1h# assetfilepongo
+# assetfilepongo
 AssetFile for pongo2 template system
 
-Code Cover %100 https://gocover.io/github.com/akmyazilim/assetfile/assetfilepongo
+Code Cover %100 https://gocover.io/github.com/s4l1h/assetfile/assetfilepongo
 
-Doc https://godoc.org/github.com/akmyazilim/assetfile/assetfilepongo
+Doc https://godoc.org/github.com/s4l1h/assetfile/assetfilepongo
 
 # install
 ```
-go get -u github.com/akmyazilim/assetfile/assetfilepongo
+go get -u github.com/s4l1h/assetfile/assetfilepongo
 ```
 
 # example
@@ -17,7 +17,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/akmyazilim/assetfile/assetfilepongo"
+	"github.com/s4l1h/assetfile/assetfilepongo"
 	"github.com/flosch/pongo2"
 )
 
