@@ -1,4 +1,4 @@
-package assetfilepongo
+s4l1hpackage assetfilepongo
 
 import (
 	"github.com/akmyazilim/assetfile"

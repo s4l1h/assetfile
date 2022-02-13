@@ -1,13 +1,13 @@
-# assetfile
+s4l1h# assetfile
 AssetFile for Template System
 
-Code Cover %100 https://gocover.io/github.com/akmyazilim/assetfile
+Code Cover %100 https://gocover.io/github.com/s4l1h/assetfile
 
-Doc https://godoc.org/github.com/akmyazilim/assetfile
+Doc https://godoc.org/github.com/s4l1h/assetfile
 
 # install
 ```
-go get -u github.com/akmyazilim/assetfile
+go get -u github.com/s4l1h/assetfile
 ```
 
 # example
@@ -17,7 +17,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/akmyazilim/assetfile"
+	"github.com/s4l1h/assetfile"
 )
 
 func main() {
