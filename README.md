@@ -1,4 +1,4 @@
-s4l1h# assetfile
+# assetfile
 AssetFile for Template System
 
 Code Cover %100 https://gocover.io/github.com/s4l1h/assetfile
